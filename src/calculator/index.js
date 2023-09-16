@@ -15,7 +15,11 @@ document.getElementById('clear').addEventListener('click', function () {
   input.value = '';
   resultInput.value = '';
   input.focus();
+
   resultInput.classList.remove('error');
+  const button = document.getElementById('copyToClipboard')
+  button.innerText = 'Copy';
+  button.classList.remove('success');
 });
 
 input.addEventListener('keydown', function (ev) {
