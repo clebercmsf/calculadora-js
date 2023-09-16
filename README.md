@@ -5,4 +5,4 @@ Para seu desenvolvimento foi utilizado: HTML, CSS e JavaScript.
 
 #Preview
 <br>
-<img src=".src/assets/img/preview.jpg">
+<img src="./src/assets/img/preview.png">
