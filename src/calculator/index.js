@@ -15,6 +15,7 @@ document.getElementById('clear').addEventListener('click', function () {
   input.value = '';
   resultInput.value = '';
   input.focus();
+  resultInput.classList.remove('error');
 });
 
 input.addEventListener('keydown', function (ev) {
